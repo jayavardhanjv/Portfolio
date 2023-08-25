@@ -39,7 +39,7 @@ function MainPage() {
                 <div class="flex w-full items-center justify-center p-[24px]  space-x-12 ">
                 
                 <a class=" hover:scale-125 text-white bg-black inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow darki:hover:bg-background/90 h-9 px-4 py-2 dark:bg-foreground dark:text-background no-underline" download="Jayavardhan_resume" target="_blank" href={resume}><span class="mr-1 animate-waving-hand">📜 </span> Download CV</a>
-                <a class=" hover:scale-125 bg-white text-black inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow darki:hover:bg-background/90 h-9 px-4 py-2 dark:bg-foreground dark:text-background no-underline" href="contact"><span class="mr-1 animate-waving-hand">👋🏻 </span> Contact Me</a>
+                <a class=" hover:scale-125 bg-white text-black inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow darki:hover:bg-background/90 h-9 px-4 py-2 dark:bg-foreground dark:text-background no-underline" href="/#contact"><span class="mr-1 animate-waving-hand">👋🏻 </span> Contact Me</a>
                 </div>
             </p>
             
