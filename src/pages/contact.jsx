@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="bg-gray-50 py-20 lg:py-[120px] overflow-hidden relative z-10">
+      <section id="contact" className="bg-gray-50 py-20 lg:py-[120px] overflow-hidden relative z-10">
         <div className="container">
           <div className="flex flex-wrap -mx-4 lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">

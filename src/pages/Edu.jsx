@@ -6,7 +6,7 @@ function Sskill() {
                 <section id="about" class=" py-10 md:py-20  relative space-y-16 p-6  justify-center items-center flex flex-col  " >
                             <h2 class="text-black font-bold mb-4">Educa<span class="text-blue-600">tion</span></h2>
                             {/* <!-- Education Card 1--> */}
-                            <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card shadow border-0 rounded-4 mt-7 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
@@ -30,7 +30,7 @@ function Sskill() {
                                 </div>
                             </div>
                             {/* <!-- Education Card 2--> */}
-                            <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card shadow border-0 rounded-4 mt-5 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
