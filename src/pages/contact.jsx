@@ -1,6 +1,20 @@
 import React from "react";
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_es0p2g7', 'template_bwi5dy4', form.current, '4AbTeyYKj3yt9Dw2r')
+      .then((result) => {
+          console.log(result.text);
+          window.alert("Message Sent");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <>
       <section id="contact" className="bg-gray-50 py-20 lg:py-[120px] overflow-hidden relative z-10">
@@ -69,26 +83,26 @@ const Contact = () => {
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="relative p-8 bg-white rounded-lg shadow-lg sm:p-12">
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                   <ContactInputBox
                     type="text"
-                    name="name"
+                    name="user_name"
                     placeholder="Your Name"
                   />
                   <ContactInputBox
                     type="text"
-                    name="email"
+                    name="user_email"
                     placeholder="Your Email"
                   />
                   <ContactInputBox
                     type="text"
-                    name="phone"
+                    name="user_phno"
                     placeholder="Your Phone"
                   />
                   <ContactTextArea
                     row="6"
                     placeholder="Your Message"
-                    name="details"
+                    name="message"
                     defaultValue=""
                   />
                   <div>

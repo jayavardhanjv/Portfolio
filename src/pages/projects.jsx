@@ -10,6 +10,34 @@ function Projects() {
                     </div>
                     <div class="row gx-5 justify-content-center ">
                         <div class="col-lg-11 col-xl-9 col-xxl-8 ">
+                            {/* <!-- Project Card new--> */}
+                            <div class="card overflow-hidden shadow rounded-4  mb-5 transition duration-300 ease-in-out hover:scale-105">
+        <a href="https://github.com/jayavardhanjv/ReUnit" class="no-underline text-black">
+            <div class="card-body p-4 md:p-0">
+                <div class="md:flex md:items-center">
+                    <div class="md:w-1/2 p-4">
+                        <h2 class="font-semibold text-xl md:text-2xl mb-2">ReUnite - Lost and Found Mobile <span class="text-blue-600">App</span></h2>
+                        <p class="mb-4">ReUnite is a Mobile Application that helps user to report the lost and
+found item helps to reunite the lost item with original owner. I was
+responsible for developing the back-end business logic and designing
+the front-end user interface of the Mobile Application. I learned how
+to use Dart to create Responsive backed, Flutter and other decency to
+create responsive and modern Mobile Application, and Firebase as
+database.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 rounded bg-[#2bdecf38] text-black dark:text-white">Flutter</span>
+                            <span class="px-2 py-1 rounded bg-[#efff105f] dark:text-black">Dart</span>
+                            <span class="px-2 py-1 rounded bg-[#4577ce25] text-[#4577ce]">Firebase</span>
+                            {/* <span class="px-2 py-1 rounded bg-[#d1772425] text-[#d17724]">Firebase</span> */}
+                            {/* <span class="px-2 py-1 rounded bg-[#2dd12425] text-[#38d124]">Bootstrap</span> */}
+                            {/* <span class="px-2 py-1 rounded bg-[#ce24d125] text-[#c824d1]">Data Visualization</span> */}
+                        </div>
+                    </div>
+                    <img class="w-full h-auto object-cover md:w-1/2 md:object-contain transition duration-300 ease-in-out hover:scale-115" src={erovra} alt="Rainfall Prediction"/>
+                </div>
+            </div>
+        </a>
+    </div>
                             {/* <!-- Project Card 1--> */}
                             <div class="card overflow-hidden shadow rounded-4  mb-5 transition duration-300 ease-in-out hover:scale-105">
         <a href="https://erovra1.firebaseapp.com/" class="no-underline text-black">

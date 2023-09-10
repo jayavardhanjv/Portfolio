@@ -1,5 +1,5 @@
 import Navbarr from "../addons/Navbarr";
-import resume from "../assets/Jayavardhan_resume.pdf";
+import resume from "../assets/Jayavardhan_J_Resume.pdf";
 import React from "react";
 import { useTypewriter, Cursor} from 'react-simple-typewriter';
 function MainPage() {
