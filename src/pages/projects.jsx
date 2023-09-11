@@ -1,5 +1,6 @@
 import erovra from "../assets/ero.JPG";
 import rain from "../assets/rain.JPG";
+import reunite from "../assets/ReUnite.png";
 function Projects() {
     return(
         <div class=" bg-gray-50 continer">
@@ -33,7 +34,7 @@ database.</p>
                             {/* <span class="px-2 py-1 rounded bg-[#ce24d125] text-[#c824d1]">Data Visualization</span> */}
                         </div>
                     </div>
-                    <img class="w-full h-auto object-cover md:w-1/2 md:object-contain transition duration-300 ease-in-out hover:scale-115" src={erovra} alt="Rainfall Prediction"/>
+                    <img class="w-full h-auto object-cover md:w-1/2 md:object-contain transition duration-300 ease-in-out hover:scale-115" src={reunite} alt="Rainfall Prediction"/>
                 </div>
             </div>
         </a>
