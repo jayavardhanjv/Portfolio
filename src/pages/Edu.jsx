@@ -30,7 +30,7 @@ function Sskill() {
                                 </div>
                             </div>
                             {/* <!-- Education Card 2--> */}
-                            <div class="card shadow border-0 rounded-4 mt-5 mb-5">
+                            <div class="card shadow border-0 rounded-4 mt-1 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
